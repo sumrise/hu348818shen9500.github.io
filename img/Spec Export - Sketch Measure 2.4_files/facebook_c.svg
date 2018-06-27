@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook_c</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web" transform="translate(-701.000000, -2979.000000)" fill="#FFFFFF">
+            <g id="Group-12" transform="translate(557.000000, 2912.000000)">
+                <g id="Group-11" transform="translate(4.000000, 67.000000)">
+                    <path d="M155,30 C146.715728,30 140,23.2842717 140,15 C140,6.71572834 146.715728,0 155,0 C163.284272,0 170,6.71572834 170,15 C170,23.2842717 163.284272,30 155,30 Z M156.8048,5.3172 C156.1748,5.3172 155.57,5.3928 154.8644,5.67 C153.428,6.2496 152.6972,7.6104 152.6972,9.7272 L152.6972,11.7936 L150.6812,11.7936 L150.6812,15.246 L152.6972,15.246 L152.6972,25.2 L156.8048,25.2 L156.8048,15.246 L159.602,15.246 L159.98,11.7936 L156.8048,11.7936 L156.8048,10.2312 C156.8048,9.7524 156.8552,9.3996 156.9812,9.198 C157.1576,8.8956 157.5104,8.7444 158.0648,8.7444 L159.9296,8.7444 L159.9296,5.3172 L156.8048,5.3172 Z" id="facebook_c"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

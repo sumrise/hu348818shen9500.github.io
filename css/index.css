@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	width: 1440px;
+	margin: 0 auto;
+}
+/*头部*/
+.header{	
+	height: 700px;
+	background-image: url(../img/QQ图片20180627113229.png);
+}
+.header nav{
+	height: 100px;
+	line-height: 100px;
+}
+.header nav .logo{
+	margin-left:57px ;
+}
+.header nav .logo img{
+	position: relative;
+	top: 8px;
+	width: 24.9px;
+	height: 30px;
+}
+.header nav .name{
+	font-family: ZHSRXT2.0--GBK1-0;
+	font-size: 28px;
+	color: #FFFFFF;
+	margin-left:8px ;
+}
+.header nav .operation{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-left:51px ;
+}
+.header nav a:nth-child(3){
+	margin-left:750px;
+}
+.header p:nth-child(2){
+	margin-top:215.6px;
+	font-family: PingFangSC-Regular;
+	font-size: 32px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 28px
+}
+.header p:nth-child(3){
+	margin-top:25px ;
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 28px
+}
+
+/*团队*/
+.team{	
+	height: 580px;	
+}
+.team>p{
+	font-family: PingFangSC-Medium;
+	font-size: 26px;
+	color: #666666;
+	text-align: center;
+	margin-top:20px ;
+}
+.team>span{
+	display: block;
+	width: 51px;
+	height: 4px;
+	background: #0CD7F3;
+	margin: 0 auto;
+	margin-top:9px ;
+	margin-bottom:81.25px;
+}
+.team>div>span{
+	display: inline-block;
+	width: 470px;
+	text-align: center;
+	margin-left: 170px;
+}
+.team>div>span>img{
+	border-radius:50% ;
+}
+.team>div>span>h2{
+	font-family: PingFangSC-Medium;
+	font-size: 28px;
+	color: #666666;
+	font-weight: 500;
+}
+.team>div>span>p{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #666666;
+	line-height: 28px;
+	text-align: left;
+}
+/*项目*/
+.project{	
+	height: 1000px;
+	background-color: saddlebrown;
+	background-image:url(../img/880.jpg) ;
+}
+.project>p{
+	font-family: PingFangSC-Medium;
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top:70px ;
+}
+.project>span{
+	display: block;
+	width: 51px;
+	height: 4px;
+	background: #0CD7F3;
+	margin: 0 auto;
+	margin-top:9px ;
+	margin-bottom:81.25px; 
+}
+.project>div>span{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius:10px;
+	background-color:white;
+	text-align: center;
+	margin:0 0 50px 30px; 
+}
+.project>div>span:nth-child(1),
+.project>div>span:nth-child(6),
+.project>div>span:nth-child(11){
+	margin-left:160px;
+}
+.project>div>span img{
+	margin-top:37.5px;
+}
+.project>div>span p{
+	font-family: Helvetica-Bold;
+	font-size: 32px;
+	color: #4D4D4D;
+	margin-bottom:18px ;
+}
+.project>div>span div span{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+	line-height: 24px;
+	
+}
+.project>div>span div span:nth-child(1){
+	margin:0 10px 0 60px;
+}
+/*标准*/
+.standard{
+ 	height: 350px;	
+}
+.standard>p:nth-child(1){
+	font-family: PingFangSC-Medium;
+	font-size: 26px;
+	color: #666666;
+	text-align: center;
+	margin-top:20px ;
+}
+.standard>span{
+	display: block;
+	width: 51px;
+	height: 4px;
+	background: #0CD7F3;
+	margin: 0 auto;
+	margin-top:9px ;
+	margin-bottom:81.25px;
+}
+.standard>p:nth-child(3),
+.standard>p:nth-child(4){
+	margin-left:180px ;
+	width: 1120px;
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #111332;
+	text-align: center;
+}
+.standard>p:nth-child(3){
+	margin-bottom:20px ;
+}
+/*联系我们*/
+.contact{	
+	height: 300px;
+	background: #20203F;
+}
+.contact>p{
+	padding-top:75px ;
+	ont-family: PingFangSC-Medium;
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.contact .icon{
+	margin:31.25px 0;
+	text-align: center;
+}
+.contact .icon span{
+	margin-left: 40px;
+}
+.contact .icon span:nth-child(1){
+	margin-left: 0;
+}
+.contact .ContactInformation{
+	text-align: center;
+	
+}
+.contact .ContactInformation span{
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.contact .ContactInformation span:nth-child(2){
+	margin:0 10px;
+}
+
+
+.project img{
+	width: 80px;
+	height: 80px;
+}

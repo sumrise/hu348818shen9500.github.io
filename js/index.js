@@ -1,0 +1,15 @@
+$(".operation").eq(1).click(function(){
+	$(window).scrollTop(670);	
+})
+$(".operation").eq(2).click(function(){
+	$(window).scrollTop(1335);	
+})
+$(".operation").eq(3).click(function(){
+	$(window).scrollTop(2366);	
+})
+$(".operation").eq(4).click(function(){
+	$(window).scrollTop(2812);	
+})
+$(".operation").eq(0).click(function(){
+	$(window).scrollTop(0);	
+})

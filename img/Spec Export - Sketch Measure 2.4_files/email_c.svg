@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>email_c</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web" transform="translate(-841.000000, -2979.000000)" fill="#FFFFFF">
+            <g id="Group-12" transform="translate(557.000000, 2912.000000)">
+                <g id="Group-11" transform="translate(4.000000, 67.000000)">
+                    <path d="M295,28.8 C286.715728,28.8 280,22.3529008 280,14.4 C280,6.44709921 286.715728,0 295,0 C303.284272,0 310,6.44709921 310,14.4 C310,22.3529008 303.284272,28.8 295,28.8 Z M286.571875,9.58971605 L295.026018,17.4621858 L303.4,9.58971605 L286.571875,9.58971605 Z M286,10.735471 L286,19.2436251 L290.678829,15.0301917 L286,10.735471 Z M304,10.6724617 L299.193109,15.0184037 L304,19.2436247 L304,10.6724617 Z M298.397053,15.7329894 L295.006611,18.8922439 L291.564843,15.7329894 L286.588801,20.4 L303.424422,20.4 L298.397053,15.7329894 Z" id="email_c"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
