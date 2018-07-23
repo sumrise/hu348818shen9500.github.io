@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
 #content{
 	width: 1440px;
 	margin: 0 auto;
@@ -9,7 +12,7 @@
 /*头部*/
 .header{	
 	height: 700px;
-	background-image: url(../img/QQ图片20180627113229.png);
+	background-image: url(../img/desktop.png);
 }
 .header nav{
 	height: 100px;
@@ -21,7 +24,7 @@
 .header nav .logo img{
 	position: relative;
 	top: 8px;
-	width: 24.9px;
+	width: 60px;
 	height: 30px;
 }
 .header nav .name{
@@ -42,7 +45,7 @@
 .header p:nth-child(2){
 	margin-top:215.6px;
 	font-family: PingFangSC-Regular;
-	font-size: 32px;
+	font-size: 20px;
 	color: #FFFFFF;
 	text-align: center;
 	line-height: 28px
@@ -53,7 +56,9 @@
 	font-size: 20px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 28px
+	line-height: 28px;
+	width: 1120px;
+	margin-left: 180px;
 }
 
 /*团队*/
@@ -98,9 +103,49 @@
 	line-height: 28px;
 	text-align: left;
 }
+/*合作机构*/
+.Cooperation>p{
+	font-family: PingFangSC-Medium;
+	font-size: 26px;
+	color: #666666;
+	text-align: center;
+	padding-top:70px ;
+}
+.Cooperation>div>span>p{
+	font-family: Helvetica-Bold;
+	font-size: 32px;
+	color: #4D4D4D;
+	margin-bottom: 20px;
+}
+.Cooperation>span{
+	display: block;
+	width: 51px;
+	height: 4px;
+	background: #0CD7F3;
+	margin: 0 auto;
+	margin-top:9px ;
+	margin-bottom:81.25px; 
+}
+.Cooperation>div>span{
+	width: 220px;
+	height: 230px;
+	display: inline-block;
+	background-color: white;
+	border-radius:10px;
+	text-align: center;
+}
+.Cooperation>div>span:nth-child(1),
+.Cooperation>div>span:nth-child(6),
+.Cooperation>div>span:nth-child(11){
+	margin-left:100px;
+}
+.Cooperation>div>span>img{
+	width: 150px;
+	height: 100px;
+}
 /*项目*/
 .project{	
-	height: 1000px;
+	height: 1600px;
 	background-color: saddlebrown;
 	background-image:url(../img/880.jpg) ;
 }
@@ -120,19 +165,31 @@
 	margin-top:9px ;
 	margin-bottom:81.25px; 
 }
+.project>div>span:nth-child(1)>img,.project>div>span:nth-child(2)>img{
+	width: 150px;
+}
+.project>div>span:nth-child(16)>p,.project>div>span:nth-child(19)>p{
+	font-size: 30px;
+}
 .project>div>span{
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 230px;
 	border-radius:10px;
 	background-color:white;
 	text-align: center;
-	margin:0 0 50px 30px; 
+	margin:0 0 50px 30px;
+	cursor: pointer; 
+}
+.project>div>span>a{
+	color: #666666;
 }
 .project>div>span:nth-child(1),
 .project>div>span:nth-child(6),
-.project>div>span:nth-child(11){
-	margin-left:160px;
+.project>div>span:nth-child(11),
+.project>div>span:nth-child(16),
+.project>div>span:nth-child(21){
+	margin-left:100px;
 }
 .project>div>span img{
 	margin-top:37.5px;
@@ -204,6 +261,15 @@
 }
 .contact .icon span{
 	margin-left: 40px;
+}
+.icon>span:nth-child(1){
+	position: relative;
+}
+.icon>span>.QR{
+	position: absolute;
+	top: -150px;
+	left: -300px;
+	display: none;
 }
 .contact .icon span:nth-child(1){
 	margin-left: 0;

@@ -1,15 +1,94 @@
+
+$(".operation").eq(0).click(function(){
+	$(window).scrollTop(570);	
+})
 $(".operation").eq(1).click(function(){
-	$(window).scrollTop(670);	
+	$(window).scrollTop(1370);	
 })
 $(".operation").eq(2).click(function(){
-	$(window).scrollTop(1335);	
+	$(window).scrollTop(2135);	
 })
 $(".operation").eq(3).click(function(){
-	$(window).scrollTop(2366);	
+	$(window).scrollTop(3866);	
 })
 $(".operation").eq(4).click(function(){
-	$(window).scrollTop(2812);	
+	$(window).scrollTop(3812);	
 })
-$(".operation").eq(0).click(function(){
-	$(window).scrollTop(0);	
+$(".icon>span").eq(0).hover(
+	function(){
+		$(".QR").css('display','block')	
+},function(){
+	$(".QR").css('display','none')	
+})
+$('.project>div>span').eq(0).click(function(){
+	window.open("https://mainframe.com/zh/")
+})
+$('.project>div>span').eq(1).click(function(){
+	window.open("https://polkadot.network/")
+})
+$('.project>div>span').eq(2).click(function(){
+	window.open("https://www.fusion.org/")
+})
+$('.project>div>span').eq(3).click(function(){
+	window.open("https://www.chiliz.io/")
+})
+$('.project>div>span').eq(4).click(function(){
+	window.open("https://basis.io/")
+})
+$('.project>div>span').eq(5).click(function(){
+	window.open("https://ankr.network/")
+})
+$('.project>div>span').eq(6).click(function(){
+	window.open("https://nucypher.com")
+})
+$('.project>div>span').eq(7).click(function(){
+	window.open("https://www.tzero.com/")
+})
+$('.project>div>span').eq(8).click(function(){
+	window.open("https://iost.io")
+})
+$('.project>div>span').eq(9).click(function(){
+	window.open("https://www.smartcontract.com/")
+})
+$('.project>div>span').eq(10).click(function(){
+	window.open("https://www.propsproject.com/zh/")
+})
+$('.project>div>span').eq(11).click(function(){
+	window.open("https://Rsk.co")
+})
+$('.project>div>span').eq(12).click(function(){
+	window.open("https://wanchain.org")
+})
+$('.project>div>span').eq(13).click(function(){
+	window.open("https://poa.net")
+})
+$('.project>div>span').eq(14).click(function(){
+	window.open("https://lino.network")
+})
+$('.project>div>span').eq(15).click(function(){
+	window.open("https://originprotocol.com")
+})
+$('.project>div>span').eq(16).click(function(){
+	window.open("https://omisego.network")
+})
+$('.project>div>span').eq(17).click(function(){
+	window.open("https://gifto.io")
+})
+$('.project>div>span').eq(18).click(function(){
+	window.open("https://kyber.network/")
+})
+$('.project>div>span').eq(19).click(function(){
+	window.open("https://appcoins.io")
+})
+$('.project>div>span').eq(20).click(function(){
+	window.open("https://www.zilliqa.com/")
+})
+$('.project>div>span').eq(21).click(function(){
+	window.open("https://filecoin.io/")
+})
+$('.project>div>span').eq(22).click(function(){
+	window.open("https://celer.network")
+})
+$('.project>div>span').eq(23).click(function(){
+	window.open("https://newtonproject.org")
 })
